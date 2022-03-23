@@ -1,0 +1,170 @@
+#background{
+    background-color: yellow;
+    background-size: cover
+    display: flex;
+    height:100%;
+    width:100%;
+}
+
+#foreground{
+	background-color: white;
+	width: 70%;
+	height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.4)
+}
+    
+#container {
+
+    max-width: 30%;
+/*    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;*/
+    
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-bottom: 100px;
+
+}
+
+#textpadding{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ 
+}
+
+/*input {
+    display: none;
+    display: block;
+    width: 10%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid red;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}*/
+
+input[type=text],[type=password]{
+    width: fit-content;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=submit]{
+    background-color: lightgray;
+    /*color: black*/
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding 50px 50px;
+    text-decoration: none;
+    margin 50px 100px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+input[type=button]{
+    background-color: lightgray;
+    /*color: black*/
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding 1px;
+    text-decoration: none;
+    margin 50px 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=box]{
+    background-color: lightgray;
+    /*color: black*/
+    height: 200px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr#lay{
+    background-color: lightgrey;
+    border: 100px solid white;
+    height: 200px;
+    width: 600px;
+    padding 10px;
+    text-decoration: none;
+
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*<input type="box">*/
+/*input[type=box]{
+    background-color: lightgray;
+    /*color: black
+    width: 200px;
+    height: 200px;
+    border: none;
+    padding 1px;
+    text-decoration: none;
+    margin 50px 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;*/
+
+
+table{
+	border: none;
+	height: 400px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+tr#banner{
+    margin-bottom: 10%;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*tr#layout{
+
+	background-color: white;
+    border: none;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	}*/
+
+tr#layout{
+
+	background-color: white;
+    border: 30px solid white;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+td#layout{
+
+	background-color: white;
+    border: none;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
